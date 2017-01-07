@@ -1,0 +1,68 @@
+file 2551483 1462142618                                         
+version 2
+run General-0-20160502-00:43:22-2144
+attr configname General
+attr datetime 20160502-00:43:22
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Network
+attr processid 2144
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 12  Network.host[0].phy  bitrate:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx bitrate, vector"
+attr unit  bps
+vector 14  Network.host[0].phy  radioState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "radio state (enum), vector"
+vector 13  Network.host[0].phy  channelNo:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "channel no, vector"
+vector 28  Network.host[1].phy  bitrate:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx bitrate, vector"
+attr unit  bps
+vector 30  Network.host[1].phy  radioState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "radio state (enum), vector"
+vector 29  Network.host[1].phy  channelNo:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "channel no, vector"
+vector 4  Network.host[0].spi  setRxMode_time:vector  ETV
+vector 19  Network.host[1].spi  setTxMode_time:vector  ETV
+vector 22  Network.host[1].spi  startTx_time:vector  ETV
+vector 7  Network.host[0].spi  RxNoFrame_time:vector  ETV
+vector 17  Network.host[1].app  Workload:vector  ETV
+vector 18  Network.host[1].app  WorkloadPeriod:vector  ETV
+vector 8  Network.host[0].spi  DataframeArrivalPeriod:vector  ETV
+vector 10  Network.host[0].spi  ArrivedDataframesCount:vector  ETV
+vector 5  Network.host[0].spi  getReceivedData_time:vector  ETV
+vector 0  Network.host[0].app  Throughput:vector  ETV
+vector 15  Network.host[0].phy  lossRate:vector  ETV
+attr interpolationmode  backward-sample-hold
+attr title  "packet loss rate, vector"
+0	1927 145413 72 131242 0.003958500343 7.999399000957 3649 80838.694523766 145971.81987201 532223188.16885 77632438065973
+4	147340 164712 5 131244 0.000049999999 7.999449000956 3650 4.9999998999795e-005 4.9999999000683e-005 0.18249999635 9.1249996349999e-006
+5	312052 157157 71 131241 0.003958500343 7.999399000957 3649 0.0006699999999995 0.00067000000000039 2.44483 0.0016380360999999
+7	469209 157114 39 131248 0.00114616678 7.999875167737 3498 4.9999998999795e-005 4.9999999000683e-005 0.174899996502 8.7449996501999e-006
+8	626323 155475 48 131219 0.002192333563 7.998608329915 3649 0.0021923335629994 0.0021923335630003 7.999825171387 0.017538285221364
+10	781798 108523 48 131219 0.002192333563 7.998608329915 3649 1 3649 6659425 16202381025
+12	890321 73 0 16 0 0.000049999999 3 250000 250000 750000 187500000000
+13	890394 11 0 0 0 0 1 11 11 11 121
+14	890405 197499 0 131240 0 7.999328329914 7304 0 3 3656 3668
+15	1087904 1956 1808 129454 0.109600333514 7.891200329964 72 0 0 0 0
+17	1089860 149772 43 131216 0.002191999999 7.998607996351 3649 145985.40152642 145985.40152648 532700730.17003 77766529987306
+18	1239632 156507 43 131216 0.002191999999 7.998607996351 3649 0.0021919999989996 0.0021919999990004 7.998607996351 0.017532948720003
+19	1396139 161148 19 131223 0.00067 7.999277996351 3650 0.0006699999999995 0.00067000000000039 2.4455 0.0016384849999999
+22	1557287 168044 34 131238 0.000719999999 7.99932799635 3650 4.9999998999795e-005 4.9999999000683e-005 0.18249999635 9.1249996349999e-006
+28	1725331 233921 0 131235 0 7.999277996351 7301 250000 250000 1825250000 4.563125e+014
+29	1959252 11 0 0 0 0 1 11 11 11 121
+30	1959263 592220 0 131239 0 7.99932799635 21900 0 3 29200 80300

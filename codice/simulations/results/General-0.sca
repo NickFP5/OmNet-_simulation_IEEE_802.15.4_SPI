@@ -1,0 +1,107 @@
+version 2
+run General-0-20160502-00:43:22-2144
+attr configname General
+attr datetime 20160502-00:43:22
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Network
+attr processid 2144
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar Network.host[0].app 	WorkloadPeriod:last 	nan
+scalar Network.host[0].app 	Workload:last 	nan
+scalar Network.host[0].app 	Throughput:last 	145970.96605136
+scalar Network.host[0].spi 	getReceivedDataCount:last 	nan
+scalar Network.host[0].spi 	ArrivedDataframesCount:last 	3649
+scalar Network.host[0].spi 	OverWrittenDataframesCount:last 	nan
+scalar Network.host[0].spi 	DataframeArrivalPeriod:last 	0.0021923335630003
+scalar Network.host[0].phy 	lossRate:min 	0
+attr interpolationmode  backward-sample-hold
+attr title  "packet loss rate, min"
+scalar Network.host[0].phy 	lossRate:max 	0
+attr interpolationmode  backward-sample-hold
+attr title  "packet loss rate, max"
+scalar Network.host[0].phy 	lossRate:timeavg 	0
+attr interpolationmode  backward-sample-hold
+attr title  "packet loss rate, timeavg"
+statistic Network.host[0].phy 	channelNo:histogram
+field count 1
+field mean 11
+field stddev nan
+field sum 11
+field sqrsum 121
+field min 11
+field max 11
+attr interpolationmode  sample-hold
+attr title  "channel no, histogram"
+bin	-INF	0
+bin	10	0
+bin	11	1
+bin	12	0
+scalar Network.host[0].phy 	radioState:count 	7304
+attr interpolationmode  sample-hold
+attr title  "radio state (enum), count"
+scalar Network.host[0].phy 	bitrate:min 	250000
+attr interpolationmode  sample-hold
+attr title  "tx bitrate, min"
+attr unit  bps
+scalar Network.host[0].phy 	bitrate:max 	250000
+attr interpolationmode  sample-hold
+attr title  "tx bitrate, max"
+attr unit  bps
+scalar Network.host[0].phy 	bitrate:timeavg 	250000
+attr interpolationmode  sample-hold
+attr title  "tx bitrate, timeavg"
+attr unit  bps
+scalar Network.host[1].app 	WorkloadPeriod:last 	0.002191999999
+scalar Network.host[1].app 	Workload:last 	145985.40152645
+scalar Network.host[1].app 	Throughput:last 	nan
+scalar Network.host[1].spi 	getReceivedDataCount:last 	nan
+scalar Network.host[1].spi 	ArrivedDataframesCount:last 	nan
+scalar Network.host[1].spi 	OverWrittenDataframesCount:last 	nan
+scalar Network.host[1].spi 	DataframeArrivalPeriod:last 	nan
+scalar Network.host[1].phy 	lossRate:min 	nan
+attr interpolationmode  backward-sample-hold
+attr title  "packet loss rate, min"
+scalar Network.host[1].phy 	lossRate:max 	nan
+attr interpolationmode  backward-sample-hold
+attr title  "packet loss rate, max"
+scalar Network.host[1].phy 	lossRate:timeavg 	nan
+attr interpolationmode  backward-sample-hold
+attr title  "packet loss rate, timeavg"
+statistic Network.host[1].phy 	channelNo:histogram
+field count 1
+field mean 11
+field stddev nan
+field sum 11
+field sqrsum 121
+field min 11
+field max 11
+attr interpolationmode  sample-hold
+attr title  "channel no, histogram"
+bin	-INF	0
+bin	10	0
+bin	11	1
+bin	12	0
+scalar Network.host[1].phy 	radioState:count 	21900
+attr interpolationmode  sample-hold
+attr title  "radio state (enum), count"
+scalar Network.host[1].phy 	bitrate:min 	250000
+attr interpolationmode  sample-hold
+attr title  "tx bitrate, min"
+attr unit  bps
+scalar Network.host[1].phy 	bitrate:max 	250000
+attr interpolationmode  sample-hold
+attr title  "tx bitrate, max"
+attr unit  bps
+scalar Network.host[1].phy 	bitrate:timeavg 	249999.99999999
+attr interpolationmode  sample-hold
+attr title  "tx bitrate, timeavg"
+attr unit  bps
